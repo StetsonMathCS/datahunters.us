@@ -1,4 +1,9 @@
-remote_theme: Simpleyyt/jekyll-theme-next
+remote_theme: chesterhow/tale
+permalink: /:title
+paginate: 5
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -7,3 +12,8 @@ kramdown:
 future: true
 jailed: false
 gfm_quirks: paragraph_enda
+author:
+  name: Dr. Joshua Eckroth
+  url: https://www2.stetson.edu/~jeckroth/
+  email: jeckroth@stetson.edu
+
