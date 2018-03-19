@@ -4,6 +4,7 @@ paginate: 5
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
+  - jemoji
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -13,7 +14,7 @@ future: true
 jailed: false
 gfm_quirks: paragraph_enda
 author:
-  name: Dr. Joshua Eckroth
+  name: Joshua Eckroth
   url: https://www2.stetson.edu/~jeckroth/
   email: jeckroth@stetson.edu
 
